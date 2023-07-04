@@ -1,0 +1,49 @@
+/* Etiquetas globales */
+* {
+    margin: 0px;
+}
+
+html {
+    font-family: 'Lucida Sans';
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000001a;
+    height: 100%;
+    width: 100%;
+}
+
+/* Titulo */
+
+h1{
+    color: #ffffff;
+}
+
+
+/* Contador (cajas) */
+.cuentaregresiva {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuentaregresiva .cajita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 25px;
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    color: #333333;
+    background-color: #ffffff;
+}
